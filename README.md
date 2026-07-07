@@ -205,6 +205,57 @@ After successful deployment, Terraform displays:
 - Lambda Function Name
 - Lambda Function ARN
 - CloudWatch Alarm Name
+---
+
+# Deployment Verification
+
+The infrastructure was successfully provisioned on AWS using Terraform. The following screenshots verify the deployed resources.
+
+## EC2 Instance
+
+The EC2 instance was created successfully using the reusable Terraform module.
+
+![EC2 Instance](screenshots/ec2-instance.png)
+
+---
+
+## Amazon VPC
+
+A custom VPC with networking resources was provisioned.
+
+![Amazon VPC](screenshots/vpc.png)
+
+---
+
+## Amazon S3 Bucket
+
+A private S3 bucket with versioning enabled was created.
+
+![Amazon S3 Bucket](screenshots/s3-bucket.png)
+
+---
+
+## AWS Lambda Function
+
+The Lambda function was deployed successfully along with its IAM execution role.
+
+![AWS Lambda Function](screenshots/lambda-function.png)
+
+---
+
+## Amazon CloudWatch Alarm
+
+A CloudWatch alarm was configured to monitor EC2 CPU utilization.
+
+![Amazon CloudWatch Alarm](screenshots/cloudwatch-alarm.png)
+
+---
+
+## Terraform Apply Output
+
+Terraform successfully created all resources and displayed the outputs.
+
+![Terraform Output](screenshots/terraform-output.png)
 
 ---
 
