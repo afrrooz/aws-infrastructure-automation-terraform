@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.tfstate.backup
+
+# Environment
+.env
+
+# SSH Keys
+*.pem
+*.pub
+
+# ZIP files
+*.zip
