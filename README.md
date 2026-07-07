@@ -24,6 +24,10 @@ The project provisions the following AWS resources:
 - AWS Lambda Function
 - Amazon CloudWatch Alarm
 
+### Architecture Diagram
+
+![AWS Infrastructure Architecture](images/architecture-diagram.png)
+
 ---
 
 ## Project Structure
